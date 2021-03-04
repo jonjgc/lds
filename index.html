@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <style>
+        .container {
+            padding-top: 140px;
+        }
+
+        header {
+            font-size: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .row form {
+            margin: 3px auto;
+        }
+
+        button {
+            display: flex;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+         
+        <div class="row">
+        
+            <header class="col-12">Sistema de Gerência de Estágios (UVA)</header>
+
+        </div>
+
+        <div class="row">
+            <form class="col-3">
+                <div class="mb-3">
+                <input type="email" placeholder="usuário" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                <input type="password" placeholder="senha" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
