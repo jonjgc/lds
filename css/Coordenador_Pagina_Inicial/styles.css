@@ -1,0 +1,33 @@
+.container {
+    /*border: 1px solid black;*/
+    height: 25vh;
+    padding-top: 7px;
+    margin-top: -50px;
+    box-shadow: 5px 1px 8px black;
+}
+
+#CoordPagInicial button {
+    margin-left: 10px;
+}
+
+#IconeTopo {
+    padding-right: 10px;
+}
+
+#IconeTopo a{
+    margin-top: -60px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+div p {
+    margin-left: 45px;
+    margin-top: 180px;
+}

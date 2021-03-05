@@ -1,0 +1,36 @@
+
+/*INICIO DA TELA FORMULARIO_INICIAL*/
+
+.container {
+    padding-top: 140px;
+}
+
+header {
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.row form {
+    margin: 3px auto;
+}
+
+button {
+    display: flex;
+    margin-left: 90px;
+}
+
+button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+button a:hover { 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*INICIO DA TELA FORMULARIO_INICIAL*/
+
