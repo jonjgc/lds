@@ -7,7 +7,6 @@
 }
 
 .row {
-    background-color: yellow;
     justify-content: center;
 }
 
@@ -39,4 +38,13 @@ div p {
 
 div.row {
     margin-top: 90px;
+}
+
+#secondContent{
+    border: 1px solid rgb(117, 99, 99);
+    height: 60vh;
+}
+
+#secondContent input{
+    margin-top: 20px;
 }

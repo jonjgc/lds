@@ -1,6 +1,10 @@
 
 /*INICIO DA TELA FORMULARIO_INICIAL*/
 
+.jumbotron {
+    height: 100%;
+}
+
 .container {
     padding-top: 140px;
 }
